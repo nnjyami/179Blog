@@ -1,0 +1,31 @@
+export const meta = {
+  date: "2022-12-19",
+  title: "こたつの争い",
+  url: "/2022/kotatsu",
+  description: "今年は久しぶりにこたつ。",
+};
+
+import ArticleBackground from "../../components/ArticleBackground";
+import ArticleCover from "../../components/ArticleCover";
+import BodyBlockText from "../../components/BodyBlockText";
+
+<ArticleBackground color="#2c2c2c" />
+
+<ArticleCover
+  date={meta.date}
+  img="/img/2022/L1004357.jpg"
+  sub={["Photo: shot in Kyoto Station", "Camera: LEICA M typ240"]}
+  title={`have a kotatsu\nto oneself`}
+  textColor="rgba(255,255,255,.95)"
+  titleType="leftBottom"
+/>
+
+<BodyBlockText
+  color="#ddd6cb"
+  text="今年は久しぶりにこたつを出した。
+こたつのあるリビングは、不思議なくつろぎ感があり良い。
+みかんなんかあるとさらに良い。
+猫のぽんちょもこたつが大好きで、隙を見て入ろうとしている。
+ぽんちょにも安心して入る基準のようなものがあるようで、タイチが入ってくると、ぽんちょはそそくさと出てくる。
+"
+/>

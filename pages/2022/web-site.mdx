@@ -1,0 +1,28 @@
+export const meta = {
+  date: "2022-12-21",
+  title: "ウェブサイト",
+  url: "/2022/web-site",
+  description: "約2週間、テレビのない日々が続いた",
+};
+
+import ArticleBackground from "../../components/ArticleBackground";
+import ArticleCover from "../../components/ArticleCover";
+import BodyBlockText from "../../components/BodyBlockText";
+
+<ArticleBackground color="#2c2c2c" />
+
+<ArticleCover
+  date={meta.date}
+  img="/img/2022/L1003434.jpg"
+  sub={["Photo: shot in Kyoto Station", "Camera: LEICA M typ240"]}
+  title={`Is Web site dead?`}
+  textColor="rgba(255,255,255,.95)"
+  titleType="centered"
+/>
+
+<BodyBlockText
+  color="#ddd6cb"
+  text="私はかれこれ十年以上Webサイト制作に関わってきているWeb屋だ。
+Webサイトを作るのが好きな一方で、作っただけで満足し、何の成果にもつながらない不幸なサイトもたくさん見てきた。人一倍、そういうサイトを作りたくないと思うし、そうならないようにできることを探している。
+"
+/>

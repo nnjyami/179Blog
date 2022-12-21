@@ -1,0 +1,30 @@
+export const meta = {
+  date: "2022-12-15",
+  title: "Finaly, Positive",
+  url: "/2022/positive",
+  description: "ついに、コロナ陽性になってしまった",
+};
+
+import ArticleCover from "../../components/ArticleCover";
+import ArticleImage from "../../components/ArticleImage";
+import BodyBlockText from "../../components/BodyBlockText";
+
+<ArticleCover
+  date={meta.date}
+  img="/img/2022/L1003345.jpg"
+  sub={["Photo: a walking in the morning", "Camera: LEICA M typ240"]}
+  title={`Finaly...\nPositive+`}
+  textColor="rgba(255,255,255,.95)"
+  titleType="leftBottom"
+/>
+
+<BodyBlockText
+  color="#666"
+  text="ついに、コロナ陽性になってしまった。 
+2020 年 4 月から始まったパンデミック。ずっと恐れ、警戒し、家には入れぬように消毒したりしていたウィルスが、我が家に、自分の中にいるのは何とも不思議な感覚...  
+これまでも何度か「コロナかな？」ということはあったけど、今回は39度出ていたし、筋肉のあちこちが痛かったので陽性である予感があった。
+ほぼ一日、三十九度の熱が下がらなくて不安だったが、その後は一日に一度ずつ下がり、無事に回復した。よかった。本当によかった。
+"
+/>
+
+<ArticleImage img="/img/2022/L1003342.jpg" />

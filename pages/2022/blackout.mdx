@@ -1,0 +1,32 @@
+export const meta = {
+  date: "2022-12-17",
+  title: "テレビのない日々",
+  url: "/2022/blackout",
+  description: "約2週間、テレビのない日々が続いた",
+};
+
+import ArticleBackground from "../../components/ArticleBackground";
+import ArticleCover from "../../components/ArticleCover";
+import BodyBlockText from "../../components/BodyBlockText";
+
+<ArticleBackground color="#2c2c2c" />
+
+<ArticleCover
+  date={meta.date}
+  img="/img/2022/L1001447.jpg"
+  sub={["Photo: shot in Kyoto Station", "Camera: LEICA M typ240"]}
+  title={`BLACKOUT`}
+  textColor="rgba(255,255,255,.95)"
+  titleType="centered"
+/>
+
+<BodyBlockText
+  color="#ddd6cb"
+  text="二週間、テレビがない日が続いてきた。
+約十年、我が家のリビングに鎮座していたテレビは、光も音も出なくなり、真っ黒な置物になった。
+テレビがないと少し寂しく感じる瞬間もあるが、概ね部屋が静かで良い。
+毎日、お気に入りの番組を何度も何度も再生している息子にとっては辛かったかもしれない。
+ともあれ、ついに新しいテレビが来た。
+4Kになったりしたので、今、4Kの映像が見たくて仕方ない。
+"
+/>
